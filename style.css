@@ -1,0 +1,66 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8rem;
+    background-color: black;
+}
+i {
+    margin: 0 1rem;
+    font-size: 4rem;
+}
+p {
+    margin: 0;
+}
+span {
+    font-weight: 700;
+}
+main {
+    width: 60%;
+    margin: 0 auto;
+    background-color: white;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.logo i {
+    font-size: 6rem;
+}
+.titulo {
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.imagen {
+    width: 100%;
+    height: 30rem;
+    background-image: url('./img/puente.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2rem 0;
+}
+.iconos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+.description {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
